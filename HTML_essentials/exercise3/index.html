@@ -5,6 +5,7 @@
         <title>Third</title>
     </head>
     <body>
+        <h2>Table element:</h2>
         <table border="1">
             <tr>
                 <th>Name</th>
@@ -18,14 +19,37 @@
                 <td>Ali</td>
                 <td>34</td>
             </tr>
-            <tr>
-                <td>Asai</td>
-                <td>14</td>
-            </tr>
-            <tr>
-                <td>Bogoss</td>
-                <td>14</td>
-            </tr>
         </table>
+        <h2>Input element:</h2>
+        <form>
+            <label for="username"> username: </label>
+            <input type="text" id="username" required placeholder="enter an username"/>
+            <br/>
+
+            <label for="password"> Password: </label>
+            <input type="password" required placeholder="enter a password" />
+            <br/>
+
+            <label for="email" > Email:</label>
+            <input type="email" id="email" required placeholder="enter an email" />
+            <br />
+
+            <select id="country" required>
+                <option value="">Select a country</option>
+                <option value="France">France</option>
+                <option value="Thailand">Thailand</option>
+                <option value="UK">UK</option>
+            </select>
+            <br />
+            <button type="submit">Sign up</button>
+            
+        </form>
+        <h2>List element :</h2>
+        <ul>
+            <li>This</li>
+            <li>is</li>
+            <li>a</li>
+            <li>list</li>
+        </ul>
     </body>
 </html>
