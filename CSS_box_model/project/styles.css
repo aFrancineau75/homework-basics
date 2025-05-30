@@ -14,7 +14,7 @@ nav {
     display: flex;
     justify-content: space-evenly;
     padding: 10px;
-    top: 0;;
+    top: 0;
     background-color: lightgray;
     height: 20px;
 }
@@ -43,7 +43,14 @@ nav a:hover {
 }
 .post article {
     margin-left: 4px;
+    height: 120px;
+    overflow: auto;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin-right:4px;
+    padding:5px;
 }
+
 .post div {
     display: flex;
     flex-direction: row;
