@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="author" content="Alexandre Francineau"/>
+        <title>first</title>
+        <style>
+            h1 {
+                font-size: x-large;
+                color:red;
+            }
+            div > p {
+                color:green;
+                font-style: italic;
+            }
+            h2 + p {
+                color:purple;
+                font-weight: bold;
+            }
+            h3 ~ p {
+                color:blue;
+                font-style: oblique;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>CSS selectors lesson</h1>
+        </header>
+        <div>
+            <p>
+                Paragraph inside a div (direct child)
+            </p>
+            <section>
+                <p>Other paragraph inside a section inside a div (not direct child)</p>
+            </section>
+        </div>
+        <p>
+            Paragraph not inside a div
+        </p>
+        <h2>heading 2 (h2 + p)</h2>
+        <p>first paragraph after h2</p>
+
+        <h3>Heading 3 (h3 ~ p) </h3>
+        <p>First paragraph after h3</p>
+        <p>Second paragraph after h3</p>
+    </body>
+</html>
