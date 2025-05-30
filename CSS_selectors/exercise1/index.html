@@ -5,6 +5,10 @@
         <meta name="author" content="Alexandre Francineau"/>
         <title>first</title>
         <style>
+            .number::before{
+                content:'1. ';
+                font-size: 20px;
+            }
             h1 {
                 font-size: x-large;
                 color:red;
@@ -21,11 +25,26 @@
                 color:blue;
                 font-style: oblique;
             }
+
+            button:hover {
+                background-color: lightblue;
+            }
+
+            input:focus {
+                border:3px solid green
+            }
+
+            li:nth-child(even) {
+                background-color: lightgrey;
+            }
+            li:nth-child(odd) {
+                background-color: lightcoral;
+            }
         </style>
     </head>
     <body>
-        <header>
-            <h1>CSS selectors lesson</h1>
+        <header >
+            <h1 class="number">CSS selectors lesson</h1>
         </header>
         <div>
             <p>
@@ -44,5 +63,13 @@
         <h3>Heading 3 (h3 ~ p) </h3>
         <p>First paragraph after h3</p>
         <p>Second paragraph after h3</p>
+        <button>hover button</button>
+        <input type="text" placeholder="click">
+
+        <ul>
+            <li>item1 odd lightcoral</li>
+            <li>item2 even lightgrey</li>
+            <li>item3 odd lightcoral</li>
+        </ul>
     </body>
 </html>
