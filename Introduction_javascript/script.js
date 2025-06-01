@@ -33,6 +33,10 @@ console.log(`${num1} * ${num2} = ${production(num1,num2)}`);
 
 
 var text = "this is a string";
-let num = "this is a number";
+let num = 2;
 var list = ['this','is','an','array'];
 var obj = {'description':'this is an object'};
+
+console.log(num === 2);
+console.log(num>1);
+console.log(num !== 1);
