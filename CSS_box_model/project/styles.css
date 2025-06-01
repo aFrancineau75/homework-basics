@@ -7,7 +7,7 @@ body{
 
 .post img {
     max-width: 250px;
-    width: fit-content;
+    height: auto;
 }
 nav {
     position:sticky;
