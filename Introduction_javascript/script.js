@@ -40,3 +40,5 @@ var obj = {'description':'this is an object'};
 console.log(num === 2);
 console.log(num>1);
 console.log(num !== 1);
+
+
