@@ -1,5 +1,5 @@
 body{
-    height: 130vh;
+    height: 100vh;
     background-color: #f4f4f4;
     font-family: Arial, sans-serif;
     width: 100vw;
@@ -76,7 +76,7 @@ section > h2 {
 
 footer {
     display: flex;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
