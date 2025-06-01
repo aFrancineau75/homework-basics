@@ -32,7 +32,7 @@ console.log(`${num1} / ${num2} = ${quotient(num1,num2)}`);
 console.log(`${num1} * ${num2} = ${production(num1,num2)}`);
 
 
-text = "this is a string";
-num = "this is a number";
-list = ['this','is','an','array'];
-obj = {'description':'this is an object'};
+var text = "this is a string";
+let num = "this is a number";
+var list = ['this','is','an','array'];
+var obj = {'description':'this is an object'};
