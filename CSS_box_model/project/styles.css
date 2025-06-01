@@ -70,7 +70,7 @@ section {
     align-items: center;
 }
 
-section > h2 {
+h2 {
     font-size: larger;
 }
 
@@ -88,4 +88,15 @@ footer p {
     display:flex;
     align-items: center;
     justify-content: center;
+}
+
+.audio h2 {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width:768px) {
+    h2 {
+        font-size:large;
+    }
 }
