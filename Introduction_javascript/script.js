@@ -30,3 +30,9 @@ console.log(`${num1} + ${num2} = ${sum(num1,num2)}`);
 console.log(`${num1} - ${num2} = ${diff(num1,num2)}`);
 console.log(`${num1} / ${num2} = ${quotient(num1,num2)}`);
 console.log(`${num1} * ${num2} = ${production(num1,num2)}`);
+
+
+text = "this is a string";
+num = "this is a number";
+list = ['this','is','an','array'];
+obj = {'description':'this is an object'};
