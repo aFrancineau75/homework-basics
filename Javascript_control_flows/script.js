@@ -6,6 +6,8 @@ while (true){
     tasks.push(task);
 }
 console.log("Your todo list: ");
-tasks.forEach((task, index) => {
-    console.log(`${index+1}. ${task}`);
-});
+let index =1;
+for(let task of tasks){
+    console.log(`${index}. ${task}`);
+    index++;
+}
