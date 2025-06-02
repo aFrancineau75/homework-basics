@@ -22,6 +22,10 @@ console.log('arr: ', arr)
 console.log('delete first element with shift', arr.shift());
 console.log('arr: ',arr)
 
+mapping = arr.map((el)=>el+'s');
+console.log('mapping',mapping)
+
+
 //object
 
 
