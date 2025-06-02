@@ -1,0 +1,1 @@
+# Simulated API call with loading indicator
