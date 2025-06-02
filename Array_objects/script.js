@@ -34,3 +34,7 @@ obj['city'] = 'Paris';
 console.log("Add key value element city with obj[key]= value : ",obj['city']);
 delete obj.description;
 console.log('delete an element with delete obj.key', obj);
+
+for(key in obj){
+    console.log(`obj[${key}] = ${obj[key]}`);
+}
